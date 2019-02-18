@@ -1,0 +1,129 @@
+# depslib dependency file v1.0
+1468682154 source:/home/bear/C++/slick/main.cpp
+	"main.h"
+
+1468667106 /home/bear/C++/slick/main.h
+	<GL/gl.h>
+	<GL/glu.h>
+	<GL/glut.h>
+	<stdio.h>
+	<math.h>
+	"include/structs.h"
+	"include/camera.h"
+	"include/texture.h"
+	"include/button.h"
+
+1468613499 /home/bear/C++/slick/include/button.h
+	<stdio.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<GL/freeglut.h>
+	<string.h>
+	"structs.h"
+
+1468431369 /home/bear/C++/slick/include/structs.h
+	<GL/gl.h>
+	<GL/glu.h>
+
+1468612433 source:/home/bear/C++/slick/include/button.cpp
+	"button.h"
+
+1468164651 source:/home/bear/C++/slick/include/structs.cpp
+	"structs.h"
+
+1468695161 source:/home/bear/C++/slick/include/camera.cpp
+	"camera.h"
+
+1468613499 /home/bear/C++/slick/include/camera.h
+	<GL/gl.h>
+	<GL/glu.h>
+	<GL/freeglut.h>
+	<math.h>
+	<stdio.h>
+
+1468621822 /home/bear/C++/slick/include/texture.h
+	<cstdio>
+	<stdint.h>
+	<stdlib.h>
+	<string.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1468622740 source:/home/bear/C++/slick/include/texture.cpp
+	"texture.h"
+
+1468612873 source:/home/bear/C++/slick/include/text.cpp
+	"text.h"
+
+1468613499 /home/bear/C++/slick/include/text.h
+	<stdlib.h>
+	<stdio.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<GL/freeglut.h>
+
+1469484607 source:/media/d/C++/slick/slick/include/button.cpp
+	"button.h"
+
+1469484420 /media/d/C++/slick/slick/include/button.h
+	<stdio.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<GL/freeglut.h>
+	<string.h>
+	"structs.h"
+
+1469484430 /media/d/C++/slick/slick/include/structs.h
+	<GL/gl.h>
+	<GL/glu.h>
+
+1468612873 source:/media/d/C++/slick/slick/include/text.cpp
+	"text.h"
+
+1469484447 /media/d/C++/slick/slick/include/text.h
+	<stdlib.h>
+	<stdio.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<GL/freeglut.h>
+
+1469288149 source:/media/d/C++/slick/slick/include/camera.cpp
+	"camera.h"
+
+1469484437 /media/d/C++/slick/slick/include/camera.h
+	"structs.h"
+	<GL/gl.h>
+	<GL/glu.h>
+	<GL/freeglut.h>
+	<math.h>
+	<stdio.h>
+	<vector>
+
+1469285792 source:/media/d/C++/slick/slick/include/structs.cpp
+	"structs.h"
+
+1469484476 source:/media/d/C++/slick/slick/include/texture.cpp
+	"texture.h"
+
+1469484457 /media/d/C++/slick/slick/include/texture.h
+	<cstdio>
+	<stdint.h>
+	<stdlib.h>
+	<string.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1469285852 source:/media/d/C++/slick/slick/main.cpp
+	"main.h"
+
+1469484485 /media/d/C++/slick/slick/main.h
+	<GL/gl.h>
+	<GL/glu.h>
+	<GL/freeglut.h>
+	<stdio.h>
+	<math.h>
+	"include/structs.h"
+	"include/camera.h"
+	"include/texture.h"
+	"include/button.h"
+

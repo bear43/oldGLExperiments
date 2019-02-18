@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="slick" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/slick" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/slick" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-lGL -lGLU -lglut" />
+		</Compiler>
+		<Unit filename="include/button.cpp" />
+		<Unit filename="include/button.h" />
+		<Unit filename="include/camera.cpp" />
+		<Unit filename="include/camera.h" />
+		<Unit filename="include/structs.cpp" />
+		<Unit filename="include/structs.h" />
+		<Unit filename="include/text.cpp" />
+		<Unit filename="include/text.h" />
+		<Unit filename="include/texture.cpp" />
+		<Unit filename="include/texture.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="main.h" />
+		<Extensions>
+			<code_completion>
+				<search_path add="../../../../usr/include" />
+				<search_path add="../../../../usr/lib" />
+			</code_completion>
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,53 @@
+/*void DrawText2D(const char* text, int x, int y, Color color)
+{
+    glMatrixMode(GL_PROJECTION);
+    glColor3f(color.red, color.green, color.blue);
+    glRasterPos2i(x, y);
+    for(unsigned int i=0; i<strlen(text); i++)
+	{
+		glutBitmapCharacter(GLUT_BITMAP_8_BY_13,(char)text[i]);
+	}
+}*/
+
+/*void DrawText3D(const char* text, int x, int y, Color color)
+{
+    glMatrixMode(GL_MODELVIEW);
+    glPushMatrix();
+    glTranslatef(x, y, 0);
+    glScalef(0.1, 0.1, 0.1);
+    glColor3f(color.red, color.green, color.blue);
+    for(unsigned int i=0; i<strlen(text); i++)
+	{
+		glutStrokeCharacter(GLUT_STROKE_ROMAN, text[i]);
+	}
+	glPopMatrix();
+}*/
+void Motion(int x, int y)
+{
+    /*Coord tmp = WndCoordToWorld((float)x, (float)y, 0.0);
+    int ID = ButtonFocused(tmp.x, tmp.y, tmp.z);
+    if(ID >= 0)
+    {
+        Focus(ID);
+    }
+    else
+    {
+        for(unsigned int i = 0; i < CountOfPointers_Button; i++)
+        {
+            UnFocus(i);
+        }
+    }*/
+}
+void Mouse(int a, int state, int x, int y)
+{
+    /*if(state == 1)
+    {
+        Coord tmp = WndCoordToWorld(x, y, 0.0);
+        int ID = ButtonFocused(tmp.x, tmp.y, tmp.z);
+        if(ID >= 0)
+        {
+            if((GetButtonPointer(ID))->Draw)
+            ButtonFunc(ID);
+        }
+    }*/
+}
